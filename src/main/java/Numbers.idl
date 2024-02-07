@@ -1,0 +1,10 @@
+module MyNumbersModule
+{
+ typedef sequence<long> LongSequence;
+interface MyNumbers
+{
+LongSequence getNegativeNumbers();
+ void addRandomNumbers(in long number);
+ LongSequence getNumberSet();
+ };
+};
